@@ -2,29 +2,20 @@ import io
 import sys
 from collections import defaultdict
 
-def magnitude(vector):
-  magnitude = 0.0;
-  for i in vector:
-    magnitude += vector[i]**2;
-  magnitude = magnitude ** 0.5;
-  return magnitude;
+import textutil
 
-def normalize(vector):
-  mag = magnitude(vector);
-  for i in vector:
-    vector[i] /= mag;
-  return vector;
-
-def getDocument(tweetText, featureMapping):
+def getDocument(text, featureMapping):
   documentVector = defaultdict(int);
-  for n in range(1, 6):
-    for i in range(0, len(tweetText)-(n-1)):
-      ngram = tweetText[i:i+n]
-      if ngram not in featureMapping:
-        documentVector[len(featureMapping)] += 1;
-      else:
-        documentVector[featureMapping[ngram]] += 1;
-  #documentVector = normalize(documentVector);
+
+  text = textutil.process_text(text);
+  words = text.split(' ');
+  for word in words:
+    if len(word) == 0:
+      continue;
+    if word not in featureMapping:
+      documentVector[len(featureMapping)] += 1;
+    else:
+      documentVector[featureMapping[word]] += 1;
   return documentVector;
 
 def printDocument(documentVector, label):

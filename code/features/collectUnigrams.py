@@ -9,7 +9,7 @@ SENTENCES_PATH=sys.argv[2+NUM_WORDS];
 PREFIX = sys.argv[3+NUM_WORDS];
 
 for word in WORDS:
-  cmd = "ls -1 " + SENTENCES_PATH + "/*/" + word + "/" + word + ".output | xargs cat | /u/sid/paraphrase-ranking/ngrams/ngrams --n=1 --type=word > " + PREFIX + word;
+  cmd = "cat " + SENTENCES_PATH + "/" + word + "/" + word + ".text | /u/sid/paraphrase-ranking/ngrams/ngrams --n=1 --type=word > " + PREFIX + word;
   print >>sys.stderr, "cmd = " + cmd;
   os.system(cmd);
 
@@ -27,6 +27,6 @@ for word in WORDS:
 unigram_cnt = 0;
 
 for key in unigrams:
-  if unigrams[key] > 10:
+  if unigrams[key] > 1:
     unigram_cnt += 1;
     print str(key) + '\t' + str(unigram_cnt);
