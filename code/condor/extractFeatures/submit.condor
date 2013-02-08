@@ -1,0 +1,10 @@
+universe = vanilla
++Group = "GRAD"
++Project = "isogram"
++ProjectDescription = "ukwac"
+Executable = /usr/bin/python
+arguments = " /u/sid/paraphrase-ranking/code/features/collectUnigrams.py 26 alight skilled deep clever optimistic sharp luminous colourful shining light vivid capable gleam hopeful intelligent smart good motivated promising great talented brilliant vibrant clear gifted positive /scratch/cluster/sid/ukwac-matched-sentences/output /scratch/cluster/sid/ukwac-matched-sentences/unigrams/unigrams_"
+output = /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/bright.log
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/bright.error
+queue
