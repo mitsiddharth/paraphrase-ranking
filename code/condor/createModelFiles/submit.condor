@@ -1,1 +1,134 @@
-
+universe = vanilla
++Group = "GRAD"
++Project = "isogram"
++ProjectDescription = "ukwac"
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/alight.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/alight.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/alight.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/alight.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/skilled.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/skilled.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/skilled.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/skilled.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/deep.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/deep.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/deep.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/deep.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/clever.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/clever.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/clever.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/clever.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/optimistic.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/optimistic.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/optimistic.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/optimistic.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/sharp.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/sharp.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/sharp.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/sharp.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/luminous.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/luminous.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/luminous.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/luminous.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/colourful.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/colourful.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/colourful.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/colourful.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/shining.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/shining.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/shining.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/shining.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/light.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/light.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/light.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/light.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/vivid.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/vivid.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/vivid.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/vivid.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/capable.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/capable.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/capable.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/capable.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/gleam.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/gleam.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/gleam.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/gleam.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/hopeful.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/hopeful.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/hopeful.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/hopeful.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/intelligent.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/intelligent.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/intelligent.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/intelligent.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/smart.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/smart.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/smart.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/smart.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/good.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/good.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/good.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/good.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/motivated.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/motivated.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/motivated.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/motivated.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/promising.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/promising.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/promising.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/promising.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/great.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/great.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/great.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/great.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/talented.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/talented.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/talented.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/talented.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/brilliant.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/brilliant.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/brilliant.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/brilliant.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/vibrant.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/vibrant.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/vibrant.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/vibrant.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/clear.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/clear.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/clear.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/clear.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/gifted.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/gifted.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/gifted.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/gifted.log
+queue
+Executable = /u/sid/paraphrase-ranking/libsvm-3.16/svm-train
+arguments = " -s 2 -t 2 /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/positive.libsvm /scratch/cluster/sid/ukwac-matched-sentences/model-files/positive.model "
+error = /scratch/cluster/sid/ukwac-matched-sentences/error/positive.error
+log = /scratch/cluster/sid/ukwac-matched-sentences/log/positive.log
+queue

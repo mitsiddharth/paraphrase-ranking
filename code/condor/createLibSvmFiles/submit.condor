@@ -9,151 +9,151 @@ error = /scratch/cluster/sid/ukwac-matched-sentences/error/alight.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/alight.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/skilled/skilled.text +2 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/skilled/skilled.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/skilled.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/skilled.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/skilled.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/deep/deep.text +3 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/deep/deep.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/deep.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/deep.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/deep.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/clever/clever.text +4 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/clever/clever.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/clever.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/clever.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/clever.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/optimistic/optimistic.text +5 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/optimistic/optimistic.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/optimistic.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/optimistic.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/optimistic.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/sharp/sharp.text +6 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/sharp/sharp.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/sharp.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/sharp.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/sharp.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/luminous/luminous.text +7 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/luminous/luminous.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/luminous.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/luminous.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/luminous.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/colourful/colourful.text +8 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/colourful/colourful.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/colourful.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/colourful.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/colourful.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/shining/shining.text +9 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/shining/shining.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/shining.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/shining.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/shining.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/light/light.text +10 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/light/light.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/light.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/light.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/light.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/vivid/vivid.text +11 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/vivid/vivid.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/vivid.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/vivid.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/vivid.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/capable/capable.text +12 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/capable/capable.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/capable.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/capable.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/capable.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/gleam/gleam.text +13 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/gleam/gleam.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/gleam.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/gleam.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/gleam.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/hopeful/hopeful.text +14 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/hopeful/hopeful.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/hopeful.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/hopeful.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/hopeful.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/intelligent/intelligent.text +15 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/intelligent/intelligent.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/intelligent.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/intelligent.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/intelligent.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/smart/smart.text +16 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/smart/smart.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/smart.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/smart.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/smart.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/good/good.text +17 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/good/good.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/good.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/good.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/good.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/motivated/motivated.text +18 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/motivated/motivated.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/motivated.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/motivated.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/motivated.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/promising/promising.text +19 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/promising/promising.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/promising.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/promising.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/promising.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/great/great.text +20 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/great/great.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/great.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/great.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/great.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/talented/talented.text +21 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/talented/talented.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/talented.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/talented.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/talented.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/brilliant/brilliant.text +22 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/brilliant/brilliant.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/brilliant.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/brilliant.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/brilliant.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/vibrant/vibrant.text +23 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/vibrant/vibrant.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/vibrant.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/vibrant.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/vibrant.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/clear/clear.text +24 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/clear/clear.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/clear.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/clear.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/clear.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/gifted/gifted.text +25 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/gifted/gifted.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/gifted.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/gifted.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/gifted.log
 queue
 Executable = /lusr/bin/python
-arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/positive/positive.text +26 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
+arguments = " /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/positive/positive.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams"
 output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/positive.libsvm
 error = /scratch/cluster/sid/ukwac-matched-sentences/error/positive.error
 log = /scratch/cluster/sid/ukwac-matched-sentences/log/positive.log

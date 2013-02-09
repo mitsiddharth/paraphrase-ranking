@@ -20,7 +20,7 @@ do
     cnt=`expr $cnt + 1`
     if [ $cnt -ne 1 ]; then
       echo "Executable = /lusr/bin/python"
-      echo 'arguments = "' /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/$word/$word.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/bright.unigrams'"'
+      echo 'arguments = "' /u/sid/paraphrase-ranking/code/features/tweet2vec.py /scratch/cluster/sid/ukwac-matched-sentences/text/$word/$word.text +1 /scratch/cluster/sid/ukwac-matched-sentences/unigrams/$target_word.unigrams'"'
       echo "output = /scratch/cluster/sid/ukwac-matched-sentences/libsvm-files/$word.libsvm"
       echo "error = /scratch/cluster/sid/ukwac-matched-sentences/error/$word.error"
       echo "log = /scratch/cluster/sid/ukwac-matched-sentences/log/$word.log"

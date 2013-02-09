@@ -22,12 +22,26 @@ def save(featuresMapping, outputFile):
     print >>f, str(key) + '\t' + str(featuresMapping[key]);
   f.close();
 
-def load(filename):
+def load(filename, delimiter=' '):
   featuresMapping = defaultdict(int);
   f = open(filename);
   lines = f.readlines();
   for line in lines:
     line = line.replace('\n', '');
-    (key, value) = line.split(' ');
+    (key, value) = line.split(delimiter);
     featuresMapping[key] = int(value);
   return featuresMapping;
+
+# constructs and returns a dictionary that maps unigram's feature ID
+# to the acutal unigram.
+# eg. dic = { 1:'bright', 2135:'hello ...}
+def loadIDToValue(filename, delimiter=' '):
+  reverseMapping = defaultdict(int);
+  f = open(filename);
+  lines = f.readlines();
+  for line in lines:
+    line = line.replace('\n', '');
+    (key, value) = line.split(delimiter);
+    reverseMapping[int(value)] = key;
+  return reverseMapping;
+
